@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMove : MonoBehaviour
+public class Player_1_Move : MonoBehaviour
 {
+
     public float runSpeed = 2;
     public float jumpSpeed = 3;
     Rigidbody2D rb2D;
@@ -18,23 +19,24 @@ void Start()
     }
     void FixedUpdate()
     {
-        if (Input.GetKey("d") || Input.GetKey("right") ){
+        if (Input.GetKey("right") ){
             rb2D.velocity = new Vector2(runSpeed, rb2D.velocity.y);
             spriteRenderer.flipX = false;
             animator.SetBool("Run", true);
         }
-        else if (Input.GetKey("a") || Input.GetKey("left") ){
+        else if (Input.GetKey("left") ){
             rb2D.velocity = new Vector2(-runSpeed, rb2D.velocity.y);
             spriteRenderer.flipX = true;
             animator.SetBool("Run", true);
         }
+
         else
         {
             rb2D.velocity = new Vector2(0, rb2D.velocity.y);
             animator.SetBool("Run", false);
         }
 
-        if (Input.GetKey("space") && CheckGround.isGrounded){
+        if (Input.GetKey("up") && CheckGround.isGrounded){
             rb2D.velocity = new Vector2(rb2D.velocity.x, jumpSpeed);
         }
 
@@ -55,7 +57,7 @@ void Start()
             {
                 rb2D.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier) * Time.deltaTime;
             }
-            if(rb2D.velocity.y>0 && !Input.GetKey("space"))
+            if(rb2D.velocity.y>0 && !Input.GetKey("up"))
             {
                 rb2D.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier) * Time.deltaTime;
             }
