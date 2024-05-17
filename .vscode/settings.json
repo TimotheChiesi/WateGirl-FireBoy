@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Fire.sln"
+    "dotnet.defaultSolution": "WaterGirl-FireBoy.sln"
 }

@@ -3,22 +3,22 @@ Branch:                  2022.3/staging
 Build type:              Release
 Batch mode:              YES
 System name:             Linux
-Distro version:          #26~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Mar 12 10:22:43 UTC 2
-Kernel version:          6.5.0-26-generic
+Distro version:          #29~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Apr  4 14:39:20 UTC 2
+Kernel version:          6.5.0-28-generic
 Architecture:            x86_64
 Available memory:        22883 MB
 Using pre-set license
 Pro License: YES
 
-(Unity:97314): Gtk-WARNING **: 11:35:31.067: Theme parsing error: gtk.css:1515:35: Junk at end of value for background-color
+(Unity:5091): Gtk-WARNING **: 19:03:50.242: Theme parsing error: gtk.css:1515:35: Junk at end of value for background-color
 
-(Unity:97314): Gtk-WARNING **: 11:35:31.069: Theme parsing error: gtk.css:2971:52: Expected a valid selector
+(Unity:5091): Gtk-WARNING **: 19:03:50.244: Theme parsing error: gtk.css:2971:52: Expected a valid selector
 
-(Unity:97314): Gtk-WARNING **: 11:35:31.070: Theme parsing error: gtk.css:4423:25: '' is not a valid color name
+(Unity:5091): Gtk-WARNING **: 19:03:50.245: Theme parsing error: gtk.css:4423:25: '' is not a valid color name
 
-(Unity:97314): Gtk-WARNING **: 11:35:31.070: Theme parsing error: gtk.css:4433:25: '' is not a valid color name
+(Unity:5091): Gtk-WARNING **: 19:03:50.245: Theme parsing error: gtk.css:4433:25: '' is not a valid color name
 
-(Unity:97314): Gtk-WARNING **: 11:35:31.070: Theme parsing error: gtk.css:4445:14: unknown value for property
+(Unity:5091): Gtk-WARNING **: 19:03:50.245: Theme parsing error: gtk.css:4445:14: unknown value for property
 Desktop is 1920 x 1200 @ 60 Hz
 Initialize udev device monitor.
 
@@ -30,13 +30,13 @@ Unity
 -name
 AssetImportWorker0
 -projectPath
-/home/angie/Fire
+/home/angie/Documents/proyect/WaterGirl-FireBoy
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-39791
-Successfully changed project path to: /home/angie/Fire
-/home/angie/Fire
+45437
+Successfully changed project path to: /home/angie/Documents/proyect/WaterGirl-FireBoy
+/home/angie/Documents/proyect/WaterGirl-FireBoy
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -68,18 +68,18 @@ Successfully changed project path to: /home/angie/Fire
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [135893625533376] Host "[IP] 159.31.34.44 [Port] 0 [Flags] 2 [Guid] 237056011 [EditorId] 237056011 [Version] 1048832 [Id] LinuxEditor(16,159.31.34.44) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [130508535292864] Host "[IP] 192.168.1.46 [Port] 0 [Flags] 2 [Guid] 1344168247 [EditorId] 1344168247 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.46) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [135893625533376] Host "[IP] 159.31.34.44 [Port] 0 [Flags] 2 [Guid] 237056011 [EditorId] 237056011 [Version] 1048832 [Id] LinuxEditor(16,159.31.34.44) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [130508535292864] Host "[IP] 192.168.1.46 [Port] 0 [Flags] 2 [Guid] 1344168247 [EditorId] 1344168247 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.46) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 5,26 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 4,01 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 2022.3.21f1 (bf09ca542b87)
 [Subsystems] Discovering subsystems at path /home/angie/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /home/angie/Fire/Assets
+[Subsystems] Discovering subsystems at path /home/angie/Documents/proyect/WaterGirl-FireBoy/Assets
 GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
-Renderer: RENOIR (renoir, LLVM 15.0.7, DRM 3.54, 6.5.0-26-generic)
+Renderer: RENOIR (renoir, LLVM 15.0.7, DRM 3.54, 6.5.0-28-generic)
 Vendor:   AMD
 Version:  4.6 (Core Profile) Mesa 23.2.1-1ubuntu3.1~22.04.2
 GLES:     0
@@ -90,51 +90,51 @@ ns GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_textur
 _shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anis
 otropic GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OE
 S_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1086366720
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -126182688
 Initialize mono
 Mono path[0] = '/home/angie/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed'
 Mono path[1] = '/home/angie/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/angie/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56314
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56091
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/angie/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /home/angie/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,011537 seconds.
-- Loaded All Assemblies, in  0,401 seconds
+Registered in 0,008966 seconds.
+- Loaded All Assemblies, in  0,322 seconds
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,462 seconds
-Domain Reload Profiling: 863ms
-	BeginReloadAssembly (102ms)
+- Finished resetting the current domain, in  0,389 seconds
+Domain Reload Profiling: 712ms
+	BeginReloadAssembly (93ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (100ms)
-	LoadAllAssembliesAndSetupDomain (154ms)
-		LoadAssemblies (100ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (118ms)
+		LoadAssemblies (92ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (152ms)
-			TypeCache.Refresh (150ms)
-				TypeCache.ScanAssembly (136ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (102ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (463ms)
+	FinalizeReload (390ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (376ms)
+		SetupLoadedEditorAssemblies (318ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (263ms)
-			ProcessInitializeOnLoadMethodAttributes (83ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -142,8 +142,8 @@ Domain Reload Profiling: 863ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0,752 seconds
-Refreshing native plugins compatible for Editor in 2,24 ms, found 1 plugins.
+- Loaded All Assemblies, in  0,574 seconds
+Refreshing native plugins compatible for Editor in 1,60 ms, found 1 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -151,249 +151,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,932 seconds
-Domain Reload Profiling: 1683ms
-	BeginReloadAssembly (180ms)
+- Finished resetting the current domain, in  0,748 seconds
+Domain Reload Profiling: 1325ms
+	BeginReloadAssembly (151ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (459ms)
-		LoadAssemblies (344ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (334ms)
+		LoadAssemblies (255ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (201ms)
-			TypeCache.Refresh (162ms)
-				TypeCache.ScanAssembly (142ms)
-			ScanForSourceGeneratedMonoScriptInfo (31ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (932ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (102ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (749ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (705ms)
+		SetupLoadedEditorAssemblies (569ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (518ms)
-			ProcessInitializeOnLoadMethodAttributes (79ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2,23 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 4046 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (173,0 KB). Loaded Objects now: 4502.
-Memory consumption went from 140,1 MB to 139,9 MB.
-Total: 5,380223 ms (FindLiveObjects: 0,395720 ms CreateObjectMapping: 0,164686 ms MarkObjects: 4,251309 ms  DeleteObjects: 0,561314 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 9410,425633 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Platforms/Grey On (32x8).png
-  artifactKey: Guid(7e73d0165dccc3745b6d9f293e19161c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Platforms/Grey On (32x8).png using Guid(7e73d0165dccc3745b6d9f293e19161c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146e004def847a0d41f6e252b50ccecb') in 0,125776 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0,000035 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Materials/PhysicsMaterials/TerrainPhysicalMaterial.physicsMaterial2D
-  artifactKey: Guid(24cd1f1d2f7e46a58979df7db1b6f524) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Materials/PhysicsMaterials/TerrainPhysicalMaterial.physicsMaterial2D using Guid(24cd1f1d2f7e46a58979df7db1b6f524) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dd5cafa3e3f5a55d24a67c5bf41d044d') in 0,134334 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0,000078 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Scripts/EnemySpike.cs
-  artifactKey: Guid(122b75995cc6e888e9c807470e43f406) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Scripts/EnemySpike.cs using Guid(122b75995cc6e888e9c807470e43f406) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '246c5fda58f291aec9fec179216e30e9') in 0,005837 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0,000063 seconds.
-  path: Assets/Scenes/Level2.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/Level2.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a357e5994158d0716ca4a7668298d410') in 0,001880 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0,000067 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/AnimationsFrog/Idle.anim
-  artifactKey: Guid(014d24ed0ad43af0e830beb10b7bd335) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/AnimationsFrog/Idle.anim using Guid(014d24ed0ad43af0e830beb10b7bd335) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8db9e0e086e9cda2dd328956c5bf42d4') in 0,010360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0,000069 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Scripts/FruitManager.cs
-  artifactKey: Guid(c2b506078ae561d8aa1a67c03de2be05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Scripts/FruitManager.cs using Guid(c2b506078ae561d8aa1a67c03de2be05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2cd7f07b757e12e1f05459a3816dbce2') in 0,002629 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0,000056 seconds.
-  path: Assets/Pixel Adventure 1/Assets/PreFabs/Enemies/Spike.prefab
-  artifactKey: Guid(11bd43a216ef9f7678eae576154392bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/PreFabs/Enemies/Spike.prefab using Guid(11bd43a216ef9f7678eae576154392bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'df31abc6ca704b2f2d838cf235d70003') in 0,028699 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0,000022 seconds.
-  path: Assets/Pixel Adventure 1/Assets/PreFabs/Fruits/Bananas.prefab
-  artifactKey: Guid(91b975a88cfdaabd99a44831032aed3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/PreFabs/Fruits/Bananas.prefab using Guid(91b975a88cfdaabd99a44831032aed3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8126763c7f485f2c9ac1af7f0b6af484') in 0,013414 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0,000031 seconds.
-  path: Assets/Pixel Adventure 1/Assets/PreFabs/Fruits/Apple.prefab
-  artifactKey: Guid(2d68e9187955e93b6af61a4a20658772) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/PreFabs/Fruits/Apple.prefab using Guid(2d68e9187955e93b6af61a4a20658772) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4859290df75cb25d3fc33bb202cc251b') in 0,009363 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0,000042 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Items/Fruits/collect.anim
-  artifactKey: Guid(f61f4f15d0e52c0f78a0b0e18e333e96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Items/Fruits/collect.anim using Guid(f61f4f15d0e52c0f78a0b0e18e333e96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '43dcf115251a0ef9d3ee9e5e20a03087') in 0,004261 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0,000046 seconds.
-  path: Assets/Pixel Adventure 1/Assets/PreFabs
-  artifactKey: Guid(f83da92790145e27fb447cbe8677a353) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/PreFabs using Guid(f83da92790145e27fb447cbe8677a353) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b8b3459576510719295952eeea2a9fc6') in 0,002182 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0,000055 seconds.
-  path: Assets/Pixel Adventure 1/Assets/PreFabs/Fruits/Pineapple.prefab
-  artifactKey: Guid(588b9f9c894351f6cbedeb52612f07ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/PreFabs/Fruits/Pineapple.prefab using Guid(588b9f9c894351f6cbedeb52612f07ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7d9c4cc3a8fd1f8f24c19fffc7eef207') in 0,008912 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0,000019 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Materials
-  artifactKey: Guid(056f622730f57caedb525fed99113503) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Materials using Guid(056f622730f57caedb525fed99113503) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '658b84fb603de1670a837806016f98ee') in 0,002360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0,000026 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Scripts/DamageObject.cs
-  artifactKey: Guid(d8a477a663436fe2fa87f9982f17e9de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Scripts/DamageObject.cs using Guid(d8a477a663436fe2fa87f9982f17e9de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4a2ce6cba3996514a0c3bec19e8e5fae') in 0,004204 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0,000017 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Animations
-  artifactKey: Guid(5b1fc0c824058d8aabfd125bcd2bc3e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Animations using Guid(5b1fc0c824058d8aabfd125bcd2bc3e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2bb6b1a2f0c2eb6e66b5e0ed7a01cb93') in 0,002147 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0,000068 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Scripts/CheckGround.cs
-  artifactKey: Guid(17932237540b5c76e9a329d67b47f81a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Scripts/CheckGround.cs using Guid(17932237540b5c76e9a329d67b47f81a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b1492fb4903f6d3a3a6f6d4e307025e5') in 0,002303 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0,000036 seconds.
-  path: Assets/Pixel Adventure 1/Assets/PreFabs/Enemies
-  artifactKey: Guid(e50a76b653ba6ced69cc6d93e884a9e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/PreFabs/Enemies using Guid(e50a76b653ba6ced69cc6d93e884a9e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c5bbb2248c72508f07f172ab0f925ccc') in 0,001546 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0,525 seconds
-Refreshing native plugins compatible for Editor in 1,86 ms, found 1 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1,046 seconds
-Domain Reload Profiling: 1570ms
-	BeginReloadAssembly (192ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (22ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (247ms)
-		LoadAssemblies (315ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1047ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (576ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
+			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (424ms)
-			ProcessInitializeOnLoadMethodAttributes (58ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (420ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 2,02 ms, found 1 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1,70 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 4040 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (154,1 KB). Loaded Objects now: 4514.
-Memory consumption went from 142,6 MB to 142,4 MB.
-Total: 3,522375 ms (FindLiveObjects: 0,280064 ms CreateObjectMapping: 0,098616 ms MarkObjects: 2,967207 ms  DeleteObjects: 0,169714 ms)
+Unloading 4047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (52,1 KB). Loaded Objects now: 4508.
+Memory consumption went from 139,9 MB to 139,9 MB.
+Total: 4,183423 ms (FindLiveObjects: 0,335028 ms CreateObjectMapping: 0,129206 ms MarkObjects: 3,338972 ms  DeleteObjects: 0,372603 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -406,3 +205,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 183,205467 seconds.
+  path: Assets/Pixel Adventure 1/Assets/WaterGirl
+  artifactKey: Guid(3e2048220b622503b851e6f4d217a50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/WaterGirl using Guid(3e2048220b622503b851e6f4d217a50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bf87b25d0aa180f9af7c2f95575f15') in 0,002458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

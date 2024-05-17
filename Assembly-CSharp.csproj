@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Assets/Pixel Adventure 1/Assets/Scripts/CheckGround.cs" />
     <Compile Include="Assets/Pixel Adventure 1/Assets/Scripts/EnemySpike.cs" />
+    <Compile Include="Assets/Pixel Adventure 1/Assets/Scripts/PlayerMoveSimple.cs" />
     <Compile Include="Assets/Pixel Adventure 1/Assets/Scripts/FruitCollected.cs" />
     <Compile Include="Assets/Pixel Adventure 1/Assets/Scripts/PlayerMove.cs" />
     <Compile Include="Assets/Pixel Adventure 1/Assets/Scripts/FruitManager.cs" />
