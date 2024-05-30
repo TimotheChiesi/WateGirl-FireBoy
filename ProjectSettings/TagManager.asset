@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Lever
   - LeverParent
+  - WaterGirl
   layers:
   - Default
   - TransparentFX
