@@ -23,13 +23,13 @@ public class PlayerMoveSimple : MonoBehaviour
     void Update()
     {
         // Handle horizontal movement
-        if (Input.GetKey("d") || Input.GetKey("right"))
+        if (Input.GetKey("right"))
         {
             rb2D.velocity = new Vector2(runSpeed, rb2D.velocity.y);
             spriteRenderer.flipX = false;
             animator.SetBool("Run", true);
         }
-        else if (Input.GetKey("a") || Input.GetKey("left"))
+        else if (Input.GetKey("left"))
         {
             rb2D.velocity = new Vector2(-runSpeed, rb2D.velocity.y);
             spriteRenderer.flipX = true;
@@ -42,7 +42,7 @@ public class PlayerMoveSimple : MonoBehaviour
         }
 
         // Handle jump
-        if (Input.GetKeyDown("space") && CheckGround.isGrounded)
+        if (Input.GetKeyDown("up") && CheckGround.isGrounded)
         {
             rb2D.velocity = new Vector2(rb2D.velocity.x, jumpSpeed);
         }
