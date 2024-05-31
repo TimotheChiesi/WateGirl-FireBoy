@@ -10,6 +10,7 @@ TagManager:
   - FireBoy
   - WaterGirlDoor
   - FireBoyDoor
+  - Ground
   layers:
   - Default
   - TransparentFX
