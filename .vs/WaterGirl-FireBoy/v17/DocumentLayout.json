@@ -1,14 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\allan\\OneDrive\\Bureau\\Nouveau dossier\\WaterGirl-FireBoy\\",
+  "WorkspaceRootPath": "C:\\Users\\omaym\\Documents\\COURS ING\u00C9\\1A\\Projet_Unity\\workspace\\WaterGirl-FireBoy\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\allan\\onedrive\\bureau\\nouveau dossier\\watergirl-fireboy\\assets\\levelswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\levelswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omaym\\Documents\\COURS ING\u00C9\\1A\\Projet_Unity\\workspace\\WaterGirl-FireBoy\\Assets\\Pixel Adventure 1\\Assets\\Scripts\\LeverMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Pixel Adventure 1\\Assets\\Scripts\\LeverMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{675A4142-389A-5C36-0703-4CA5B9FA3943}|Assembly-CSharp.csproj|C:\\Users\\allan\\OneDrive\\Bureau\\Nouveau dossier\\WaterGirl-FireBoy\\assets\\pixel adventure 1\\assets\\scripts\\enemyspike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{675A4142-389A-5C36-0703-4CA5B9FA3943}|Assembly-CSharp.csproj|solutionrelative:assets\\pixel adventure 1\\assets\\scripts\\enemyspike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omaym\\Documents\\COURS ING\u00C9\\1A\\Projet_Unity\\workspace\\WaterGirl-FireBoy\\Assets\\Pixel Adventure 1\\Assets\\Scripts\\LeverMove2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Pixel Adventure 1\\Assets\\Scripts\\LeverMove2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\allan\\OneDrive\\Bureau\\Nouveau dossier\\WaterGirl-FireBoy\\Assets\\Pixel Adventure 1\\Assets\\Scripts\\PlayerMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +19,12 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\allan\\OneDrive\\Bureau\\Nouveau dossier\\WaterGirl-FireBoy\\assets\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omaym\\Documents\\COURS ING\u00C9\\1A\\Projet_Unity\\workspace\\WaterGirl-FireBoy\\Assets\\Pixel Adventure 1\\Assets\\Scripts\\PlateformeMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Pixel Adventure 1\\Assets\\Scripts\\PlateformeMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omaym\\Documents\\COURS ING\u00C9\\1A\\Projet_Unity\\workspace\\WaterGirl-FireBoy\\Assets\\Pixel Adventure 1\\Assets\\Scripts\\PlateformeMove2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Pixel Adventure 1\\Assets\\Scripts\\PlateformeMove2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,16 +62,34 @@
               "EditorCaption": ""
             },
             {
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EnemySpike.cs",
-              "DocumentMoniker": "C:\\Users\\allan\\OneDrive\\Bureau\\Nouveau dossier\\WaterGirl-FireBoy\\Assets\\Pixel Adventure 1\\Assets\\Scripts\\EnemySpike.cs",
-              "RelativeDocumentMoniker": "Assets\\Pixel Adventure 1\\Assets\\Scripts\\EnemySpike.cs",
-              "ToolTip": "C:\\Users\\allan\\OneDrive\\Bureau\\Nouveau dossier\\WaterGirl-FireBoy\\Assets\\Pixel Adventure 1\\Assets\\Scripts\\EnemySpike.cs",
-              "RelativeToolTip": "Assets\\Pixel Adventure 1\\Assets\\Scripts\\EnemySpike.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
+              "DocumentIndex": 3,
+              "Title": "PlateformeMove2.cs",
+              "DocumentMoniker": "C:\\Users\\omaym\\Documents\\COURS ING\u00C9\\1A\\Projet_Unity\\workspace\\WaterGirl-FireBoy\\Assets\\Pixel Adventure 1\\Assets\\Scripts\\PlateformeMove2.cs",
+              "RelativeDocumentMoniker": "Assets\\Pixel Adventure 1\\Assets\\Scripts\\PlateformeMove2.cs",
+              "ToolTip": "C:\\Users\\omaym\\Documents\\COURS ING\u00C9\\1A\\Projet_Unity\\workspace\\WaterGirl-FireBoy\\Assets\\Pixel Adventure 1\\Assets\\Scripts\\PlateformeMove2.cs",
+              "RelativeToolTip": "Assets\\Pixel Adventure 1\\Assets\\Scripts\\PlateformeMove2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T13:31:06.344Z"
+              "WhenOpened": "2024-05-31T07:59:31.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeverMove2.cs",
+              "DocumentMoniker": "C:\\Users\\omaym\\Documents\\COURS ING\u00C9\\1A\\Projet_Unity\\workspace\\WaterGirl-FireBoy\\Assets\\Pixel Adventure 1\\Assets\\Scripts\\LeverMove2.cs",
+              "RelativeDocumentMoniker": "Assets\\Pixel Adventure 1\\Assets\\Scripts\\LeverMove2.cs",
+              "ToolTip": "C:\\Users\\omaym\\Documents\\COURS ING\u00C9\\1A\\Projet_Unity\\workspace\\WaterGirl-FireBoy\\Assets\\Pixel Adventure 1\\Assets\\Scripts\\LeverMove2.cs",
+              "RelativeToolTip": "Assets\\Pixel Adventure 1\\Assets\\Scripts\\LeverMove2.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T07:59:25.501Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -74,12 +100,33 @@
               "ToolTip": "C:\\Users\\allan\\OneDrive\\Bureau\\Nouveau dossier\\WaterGirl-FireBoy\\Assets\\Pixel Adventure 1\\Assets\\Scripts\\PlayerMove.cs",
               "RelativeToolTip": "Assets\\Pixel Adventure 1\\Assets\\Scripts\\PlayerMove.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "PlateformeMove.cs",
+              "DocumentMoniker": "C:\\Users\\omaym\\Documents\\COURS ING\u00C9\\1A\\Projet_Unity\\workspace\\WaterGirl-FireBoy\\Assets\\Pixel Adventure 1\\Assets\\Scripts\\PlateformeMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Pixel Adventure 1\\Assets\\Scripts\\PlateformeMove.cs",
+              "ToolTip": "C:\\Users\\omaym\\Documents\\COURS ING\u00C9\\1A\\Projet_Unity\\workspace\\WaterGirl-FireBoy\\Assets\\Pixel Adventure 1\\Assets\\Scripts\\PlateformeMove.cs",
+              "RelativeToolTip": "Assets\\Pixel Adventure 1\\Assets\\Scripts\\PlateformeMove.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T12:18:00.096Z"
+              "WhenOpened": "2024-05-31T07:59:22.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LeverMove.cs",
+              "DocumentMoniker": "C:\\Users\\omaym\\Documents\\COURS ING\u00C9\\1A\\Projet_Unity\\workspace\\WaterGirl-FireBoy\\Assets\\Pixel Adventure 1\\Assets\\Scripts\\LeverMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Pixel Adventure 1\\Assets\\Scripts\\LeverMove.cs",
+              "ToolTip": "C:\\Users\\omaym\\Documents\\COURS ING\u00C9\\1A\\Projet_Unity\\workspace\\WaterGirl-FireBoy\\Assets\\Pixel Adventure 1\\Assets\\Scripts\\LeverMove.cs",
+              "RelativeToolTip": "Assets\\Pixel Adventure 1\\Assets\\Scripts\\LeverMove.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T07:59:15.661Z",
+              "EditorCaption": ""
             }
           ]
         }
       ]
+      "DocumentGroups": []
     }
   ]
 }

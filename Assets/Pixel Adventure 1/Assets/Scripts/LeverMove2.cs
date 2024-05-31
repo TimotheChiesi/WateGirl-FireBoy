@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LeverMove : MonoBehaviour
+public class LeverMove2 : MonoBehaviour
 {
     // Start is called before the first frame update
     public float rotationSpeed = -0.1f;
@@ -10,7 +10,7 @@ public class LeverMove : MonoBehaviour
     private bool isActivated = false;
     private bool rotateRight = true;
     private Rigidbody2D rb;
-    public PlateformeMove plateforme;
+    public PlateformeMove2 plateforme;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -24,6 +24,7 @@ public class LeverMove : MonoBehaviour
     {
         if (isActivated)
         {
+            Debug.Log("isACTUPDT");
             if (rotateRight)
             {
                 // Rotate towards the right
@@ -37,7 +38,7 @@ public class LeverMove : MonoBehaviour
             currentRotationAngle = Mathf.Clamp(currentRotationAngle, -60f, 60f);
             transform.rotation = Quaternion.Euler(0, 0, currentRotationAngle);
 
-            Debug.Log("Current Rotation Angle: " + currentRotationAngle);
+            
         }
         if (Mathf.Approximately(currentRotationAngle, -60))
         {
@@ -57,6 +58,7 @@ public class LeverMove : MonoBehaviour
             // Determine the side of the collision
             rotateRight = collision.transform.position.x < transform.position.x;
             Debug.Log("Collision true. Rotate Right: " + rotateRight);
+            Debug.Log("isACTCOLI");
         }
     }
 
@@ -66,6 +68,7 @@ public class LeverMove : MonoBehaviour
         {
             isActivated = false;
             Debug.Log("Collision false");
+            Debug.Log("NOACT");
         }
     }
 }
