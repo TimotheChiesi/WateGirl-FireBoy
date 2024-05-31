@@ -66,6 +66,7 @@
     <Compile Include="Assets\Pixel Adventure 1\Assets\Scripts\LeverMove.cs" />
     <Compile Include="Assets\Pixel Adventure 1\Assets\Scripts\LeverMove2.cs" />
     <Compile Include="Assets\Medieval_Assets\Script\Door.cs" />
+    <Compile Include="Assets\Pixel Adventure 1\Assets\Scripts\GameOverScreen.cs" />
     <Compile Include="Assets\Medieval_Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Pixel Adventure 1\Assets\Scripts\PlateformeMove.cs" />
     <Compile Include="Assets\Pixel Adventure 1\Assets\Scripts\CheckGround.cs" />
@@ -79,13 +80,14 @@
     <Compile Include="Assets\Medieval_Assets\Script\Gem.cs" />
     <Compile Include="Assets\Pixel Adventure 1\Assets\Scripts\FruitCollected.cs" />
     <Compile Include="Assets\Pixel Adventure 1\Assets\Scripts\Player_1_Move.cs" />
-    <Compile Include="Assets\GameOverScreen.cs" />
     <Compile Include="Assets\Pixel Adventure 1\Assets\Scripts\Player_2_Move.cs" />
     <Compile Include="Assets\Medieval_Assets\Script\Fan.cs" />
     <Compile Include="Assets\Medieval_Assets\Script\Bridge.cs" />
     <Compile Include="Assets\Medieval_Assets\Script\Lift2.cs" />
     <Compile Include="Assets\Pixel Adventure 1\Assets\Scripts\FruitManager.cs" />
     <Compile Include="Assets\Pixel Adventure 1\Assets\Scripts\DamageObject.cs" />
+    <Compile Include="Assets\Pixel Adventure 1\Assets\Scripts\levelSwitch.cs" />
+    <Compile Include="Assets\Pixel Adventure 1\Assets\Scripts\StateManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Medieval_Assets\Medieval_pixel_art_asset_FREE\pixel_snapping_README.txt" />

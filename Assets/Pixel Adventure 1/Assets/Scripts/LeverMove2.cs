@@ -52,7 +52,7 @@ public class LeverMove2 : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("FireBoy") || collision.gameObject.CompareTag("WaterGirl"))
         {
             isActivated = true;
             // Determine the side of the collision
@@ -64,7 +64,7 @@ public class LeverMove2 : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("FireBoy") || collision.gameObject.CompareTag("WaterGirl"))
         {
             isActivated = false;
             Debug.Log("Collision false");
