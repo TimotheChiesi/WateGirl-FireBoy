@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\allan\\OneDrive\\Bureau\\Nouveau dossier\\WaterGirl-FireBoy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{675A4142-389A-5C36-0703-4CA5B9FA3943}|Assembly-CSharp.csproj|C:\\Users\\allan\\OneDrive\\Bureau\\Nouveau dossier\\WaterGirl-FireBoy\\assets\\levelswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{675A4142-389A-5C36-0703-4CA5B9FA3943}|Assembly-CSharp.csproj|solutionrelative:assets\\levelswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{675A4142-389A-5C36-0703-4CA5B9FA3943}|Assembly-CSharp.csproj|c:\\users\\allan\\onedrive\\bureau\\nouveau dossier\\watergirl-fireboy\\assets\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{675A4142-389A-5C36-0703-4CA5B9FA3943}|Assembly-CSharp.csproj|solutionrelative:assets\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\allan\\onedrive\\bureau\\nouveau dossier\\watergirl-fireboy\\assets\\levelswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\levelswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{675A4142-389A-5C36-0703-4CA5B9FA3943}|Assembly-CSharp.csproj|C:\\Users\\allan\\OneDrive\\Bureau\\Nouveau dossier\\WaterGirl-FireBoy\\assets\\pixel adventure 1\\assets\\scripts\\enemyspike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\allan\\OneDrive\\Bureau\\Nouveau dossier\\WaterGirl-FireBoy\\Assets\\Pixel Adventure 1\\Assets\\Scripts\\PlayerMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Pixel Adventure 1\\Assets\\Scripts\\PlayerMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\allan\\OneDrive\\Bureau\\Nouveau dossier\\WaterGirl-FireBoy\\assets\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GameOverScreen.cs",
               "DocumentMoniker": "C:\\Users\\allan\\OneDrive\\Bureau\\Nouveau dossier\\WaterGirl-FireBoy\\Assets\\GameOverScreen.cs",
               "RelativeDocumentMoniker": "Assets\\GameOverScreen.cs",
@@ -38,8 +38,7 @@
               "RelativeToolTip": "Assets\\GameOverScreen.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T07:00:03.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-31T07:00:03.982Z"
             },
             {
               "$type": "Document",
@@ -49,14 +48,14 @@
               "RelativeDocumentMoniker": "Assets\\levelSwitch.cs",
               "ToolTip": "C:\\Users\\allan\\OneDrive\\Bureau\\Nouveau dossier\\WaterGirl-FireBoy\\Assets\\levelSwitch.cs",
               "RelativeToolTip": "Assets\\levelSwitch.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwEYAAAAAAAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAAQwF8AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T09:25:37.904Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "EnemySpike.cs",
               "DocumentMoniker": "C:\\Users\\allan\\OneDrive\\Bureau\\Nouveau dossier\\WaterGirl-FireBoy\\Assets\\Pixel Adventure 1\\Assets\\Scripts\\EnemySpike.cs",
               "RelativeDocumentMoniker": "Assets\\Pixel Adventure 1\\Assets\\Scripts\\EnemySpike.cs",
@@ -68,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "PlayerMove.cs",
               "DocumentMoniker": "C:\\Users\\allan\\OneDrive\\Bureau\\Nouveau dossier\\WaterGirl-FireBoy\\Assets\\Pixel Adventure 1\\Assets\\Scripts\\PlayerMove.cs",
               "RelativeDocumentMoniker": "Assets\\Pixel Adventure 1\\Assets\\Scripts\\PlayerMove.cs",

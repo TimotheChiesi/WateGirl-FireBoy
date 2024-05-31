@@ -168,8 +168,8 @@ MonoBehaviour:
     y: 0
     width: 812.8
     height: 371.6
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 5}
   m_Panes:
   - {fileID: 5}
@@ -213,8 +213,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -164.39996, y: -26.399994}
-      snapOffsetDelta: {x: -0.000061035156, y: 0}
+      snapOffset: {x: -164.40002, y: -26.399994}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -226,9 +226,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -141, y: 149}
+      snapOffset: {x: -141, y: -201.4}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 1
+      snapCorner: 3
       id: unity-grid-and-snap-toolbar
       index: 1
       layout: 1
@@ -544,9 +544,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.3110311, y: -0.06559263, z: -0.0011258194}
+    m_Target: {x: 0.2957682, y: -0.29798603, z: 0.01537323}
     speed: 2
-    m_Value: {x: -0.3110311, y: -0.06559263, z: -0.0011258194}
+    m_Value: {x: 0.2957682, y: -0.29798603, z: 0.01537323}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -673,7 +673,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 6157
+  controlID: 8410
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -739,7 +739,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 28e4ffff52e5ffffd6f3ffff1afbffffb06a00008a730000d6740000
+      m_ExpandedIDs: e0efffff7ef2ffff1afbffffb06b0000006c0000106c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

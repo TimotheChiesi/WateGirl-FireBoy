@@ -8,6 +8,8 @@ TagManager:
   - LeverParent
   - WaterGirl
   - FireBoy
+  - WaterGirlDoor
+  - FireBoyDoor
   layers:
   - Default
   - TransparentFX
