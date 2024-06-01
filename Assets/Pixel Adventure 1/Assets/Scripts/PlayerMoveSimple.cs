@@ -39,14 +39,14 @@ public class PlayerMoveSimple : MonoBehaviour
         bool isMoving = false;
 
         // Handle horizontal movement
-        if (Input.GetKey("right"))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             rb2D.velocity = new Vector2(runSpeed, rb2D.velocity.y);
             spriteRenderer.flipX = false;
             animator.SetBool("Run", true);
             isMoving = true;
         }
-        else if (Input.GetKey("left"))
+        else if (Input.GetKey(KeyCode.LeftArrow))
         {
             rb2D.velocity = new Vector2(-runSpeed, rb2D.velocity.y);
             spriteRenderer.flipX = true;
@@ -69,7 +69,7 @@ public class PlayerMoveSimple : MonoBehaviour
     private void HandleJump()
     {
         // Handle jump
-        if (Input.GetKeyDown("up") && CheckGround.isGrounded)
+        if (Input.GetKeyDown(KeyCode.UpArrow) && CheckGround.isGrounded)
         {
             rb2D.velocity = new Vector2(rb2D.velocity.x, jumpSpeed);
             CheckGround.isGrounded = false;
@@ -85,7 +85,7 @@ public class PlayerMoveSimple : MonoBehaviour
             {
                 rb2D.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.fixedDeltaTime;
             }
-            else if (rb2D.velocity.y > 0 && !Input.GetKey("up"))
+            else if (rb2D.velocity.y > 0 && !Input.GetKey(KeyCode.UpArrow))
             {
                 rb2D.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.fixedDeltaTime;
             }

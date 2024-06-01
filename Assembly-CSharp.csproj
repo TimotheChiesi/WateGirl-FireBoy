@@ -68,7 +68,6 @@
     <Compile Include="Assets/Medieval_Assets/Script/PlayerBlue.cs" />
     <Compile Include="Assets/Medieval_Assets/Script/Lever.cs" />
     <Compile Include="Assets/Pixel Adventure 1/Assets/Scripts/LeverMove.cs" />
-    <Compile Include="Assets/Pixel Adventure 1/Assets/Scripts/LeverMove2.cs" />
     <Compile Include="Assets/Medieval_Assets/Script/Door.cs" />
     <Compile Include="Assets/Pixel Adventure 1/Assets/Scripts/GameOverScreen.cs" />
     <Compile Include="Assets/Medieval_Assets/Script/GameManager.cs" />
@@ -78,7 +77,6 @@
     <Compile Include="Assets/Medieval_Assets/Script/GemMover.cs" />
     <Compile Include="Assets/Medieval_Assets/Script/Player.cs" />
     <Compile Include="Assets/Pixel Adventure 1/Assets/Scripts/EnemySpike.cs" />
-    <Compile Include="Assets/Pixel Adventure 1/Assets/Scripts/PlateformeMove2.cs" />
     <Compile Include="Assets/Medieval_Assets/Script/Water.cs" />
     <Compile Include="Assets/Pixel Adventure 1/Assets/Scripts/PlayerMoveSimple.cs" />
     <Compile Include="Assets/Medieval_Assets/Script/Gem.cs" />
