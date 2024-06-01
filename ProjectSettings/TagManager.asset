@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Lever
   - LeverParent
+  - WaterGirl
+  - FireBoy
+  - WaterGirlDoor
+  - FireBoyDoor
+  - Ground
   layers:
   - Default
   - TransparentFX

@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class LeverMove : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public float rotationSpeed = 0.1f;
+    public float rotationSpeed = -0.1f;
     public float currentRotationAngle;
     private bool isActivated = false;
+    private bool rotateRight = true;
     private Rigidbody2D rb;
+    public PlateformeMove plateforme;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -17,57 +19,52 @@ public class LeverMove : MonoBehaviour
         Debug.Log(currentRotationAngle);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        Debug.Log("Update");
-        // Refresh rotation angle on z axis
-        currentRotationAngle = transform.rotation.eulerAngles.z;
-        Debug.Log(currentRotationAngle);
         if (isActivated)
         {
-            Debug.Log(Vector3.forward * currentRotationAngle - Vector3.forward * rotationSpeed);
-            Debug.Log(currentRotationAngle);
-            // Check if the z-value rotation is under the threshold
-            if ((currentRotationAngle < 60f && currentRotationAngle > -60f) || Mathf.Floor(currentRotationAngle)==60f)
+            if (rotateRight)
             {
-                transform.Rotate(Vector3.forward * currentRotationAngle + Vector3.forward * rotationSpeed);
-                
-                Debug.Log("Value is under threshold");
+                // Rotate towards the right
+                currentRotationAngle -= rotationSpeed;
             }
-            // Rotate the lever on its z-axis
-            //if (Mathf.Abs(transform.rotation.eulerAngles.z) < 45f && Mathf.Abs(transform.rotation.eulerAngles.z) > -45f)
-            //{
-            //    // Get the collision point in world space
-            //    Vector2 collisionPoint = collision.GetContact(0).point;
-            //    // Get the lever's position in world space
-            //    Vector2 leverPosition = transform.position;
-            //    // Get the direction from the lever to the collision point
-            //    Vector2 direction = collisionPoint - leverPosition;
-            //    // Get the angle between the direction and the lever's right direction
-            //    float angle = Vector2.SignedAngle(Vector2.right, direction);
+            else
+            {
+                // Rotate towards the left
+                currentRotationAngle += rotationSpeed;
+            }
+            currentRotationAngle = Mathf.Clamp(currentRotationAngle, -60f, 60f);
+            transform.rotation = Quaternion.Euler(0, 0, currentRotationAngle);
 
-            //    // Rotate the lever based on collision side
-            //    if (angle > 0) // Collision on the right side
-            //        rb.MoveRotation(rb.rotation - 30f);
-            //    else // Collision on the left side
-            //        rb.MoveRotation(rb.rotation + 30f);
-            //}
+            Debug.Log("Current Rotation Angle: " + currentRotationAngle);
+        }
+        if (Mathf.Approximately(currentRotationAngle, -60))
+        {
+            plateforme.up();
+        }
+        if (Mathf.Approximately(currentRotationAngle, 60))
+        {
+            plateforme.down();
         }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("FireBoy") || collision.gameObject.CompareTag("WaterGirl"))
         {
             isActivated = true;
-            Debug.Log("Collision true");
+            // Determine the side of the collision
+            rotateRight = collision.transform.position.x < transform.position.x;
+            Debug.Log("Collision true. Rotate Right: " + rotateRight);
         }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        isActivated = false;
-        Debug.Log("Collision false");
+        if (collision.gameObject.CompareTag("FireBoy") || collision.gameObject.CompareTag("WaterGirl"))
+        {
+            isActivated = false;
+            Debug.Log("Collision false");
+        }
     }
 }
