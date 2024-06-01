@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class LeverMove : MonoBehaviour
 {
-    // Start is called before the first frame update
     public float rotationSpeed = -0.1f;
     public float currentRotationAngle;
     private bool isActivated = false;
     private bool rotateRight = true;
     private Rigidbody2D rb;
     public PlateformeMove plateforme;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -19,7 +19,6 @@ public class LeverMove : MonoBehaviour
         Debug.Log(currentRotationAngle);
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (isActivated)

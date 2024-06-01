@@ -5,35 +5,31 @@ using UnityEngine;
 public class PlateformeMove : MonoBehaviour
 {
     private Rigidbody2D rb;
+    private Vector2 initialPosition;
+    
+    public float movementDifference = 0.1f; // Parámetro para la diferencia de movimiento
 
-    public float uppositionY = 0.45f;
-    public float downpositiony = -0.18f;
-    // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         rb.isKinematic = true;
+        initialPosition = rb.position; // Guardar la posición inicial
     }
 
-    // Update is called once per frame
     public void up()
     {
         Vector2 currentPosition = rb.position;
 
-        // Modifiez uniquement la composante Y
-        currentPosition.y = uppositionY;
+        // Ajustar la posición Y sumando la diferencia de movimiento
+        currentPosition.y = initialPosition.y + movementDifference;
 
-        // Mettez � jour la position du Rigidbody2D
+        // Actualizar la posición del Rigidbody2D
         rb.position = currentPosition;
     }
+
     public void down()
     {
-        Vector2 currentPosition = rb.position;
-
-        // Modifiez uniquement la composante Y
-        currentPosition.y = downpositiony;
-
-        // Mettez � jour la position du Rigidbody2D
-        rb.position = currentPosition;
+        // Volver a la posición inicial
+        rb.position = initialPosition;
     }
 }

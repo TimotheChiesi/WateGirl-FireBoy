@@ -29,6 +29,11 @@ public class PlayerMoveSimple : MonoBehaviour
         UpdateAnimator();
     }
 
+    private void FixedUpdate()
+    {
+        ApplyBetterJump();
+    }
+
     private void HandleMovement()
     {
         bool isMoving = false;
@@ -69,17 +74,20 @@ public class PlayerMoveSimple : MonoBehaviour
             rb2D.velocity = new Vector2(rb2D.velocity.x, jumpSpeed);
             CheckGround.isGrounded = false;
         }
+    }
 
+    private void ApplyBetterJump()
+    {
         // Better jump
         if (betterJump)
         {
             if (rb2D.velocity.y < 0)
             {
-                rb2D.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+                rb2D.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.fixedDeltaTime;
             }
-            else if (rb2D.velocity.y > 0 && !Input.GetKey("space"))
+            else if (rb2D.velocity.y > 0 && !Input.GetKey("up"))
             {
-                rb2D.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
+                rb2D.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.fixedDeltaTime;
             }
         }
     }

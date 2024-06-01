@@ -23,7 +23,7 @@ public class PlateformeMove2 : MonoBehaviour
         // Modifiez uniquement la composante Y
         currentPosition.y = uppositionY;
 
-        // Mettez à jour la position du Rigidbody2D
+        // Mettez ï¿½ jour la position du Rigidbody2D
         rb.position = currentPosition;
     }
     public void down()
@@ -33,7 +33,7 @@ public class PlateformeMove2 : MonoBehaviour
         // Modifiez uniquement la composante Y
         currentPosition.y = downpositiony;
 
-        // Mettez à jour la position du Rigidbody2D
+        // Mettez ï¿½ jour la position du Rigidbody2D
         rb.position = currentPosition;
     }
 }
