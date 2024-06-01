@@ -78,7 +78,6 @@
     <Compile Include="Assets/Medieval_Assets/Script/Player.cs" />
     <Compile Include="Assets/Pixel Adventure 1/Assets/Scripts/EnemySpike.cs" />
     <Compile Include="Assets/Medieval_Assets/Script/Water.cs" />
-    <Compile Include="Assets/Pixel Adventure 1/Assets/Scripts/PlayerMoveSimple.cs" />
     <Compile Include="Assets/Medieval_Assets/Script/Gem.cs" />
     <Compile Include="Assets/Pixel Adventure 1/Assets/Scripts/FruitCollected.cs" />
     <Compile Include="Assets/Pixel Adventure 1/Assets/Scripts/Player_1_Move.cs" />
@@ -90,6 +89,7 @@
     <Compile Include="Assets/Pixel Adventure 1/Assets/Scripts/FruitManager.cs" />
     <Compile Include="Assets/Pixel Adventure 1/Assets/Scripts/DamageObject.cs" />
     <Compile Include="Assets/Pixel Adventure 1/Assets/Scripts/levelSwitch.cs" />
+    <Compile Include="Assets/Pixel Adventure 1/Assets/Scripts/PlayerMoveBase.cs" />
     <Compile Include="Assets/Pixel Adventure 1/Assets/Scripts/StateManager.cs" />
   </ItemGroup>
   <ItemGroup>

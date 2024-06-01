@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CheckGround : MonoBehaviour
 {
-    public static bool isGrounded;
+    public bool isGrounded;
     private int groundColliders = 0;
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -2,24 +2,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMoveSimple : MonoBehaviour
+public abstract class PlayerMoveBase : MonoBehaviour
 {
     public float runSpeed = 2;
     public float jumpSpeed = 3;
-    private Rigidbody2D rb2D;
     public bool betterJump = false;
     public float fallMultiplier = 0.5f;
     public float lowJumpMultiplier = 3f;
     public SpriteRenderer spriteRenderer;
     public Animator animator;
 
+    protected Rigidbody2D rb2D;
     private int verticalMovement = 0;
     private bool wasGrounded;
+    private CheckGround checkGround;
+
+    protected abstract KeyCode LeftKey { get; }
+    protected abstract KeyCode RightKey { get; }
+    protected abstract KeyCode JumpKey { get; }
 
     void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
-        wasGrounded = CheckGround.isGrounded;
+        checkGround = GetComponentInChildren<CheckGround>();
+        wasGrounded = checkGround.isGrounded;
     }
 
     void Update()
@@ -38,15 +44,14 @@ public class PlayerMoveSimple : MonoBehaviour
     {
         bool isMoving = false;
 
-        // Handle horizontal movement
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(RightKey))
         {
             rb2D.velocity = new Vector2(runSpeed, rb2D.velocity.y);
             spriteRenderer.flipX = false;
             animator.SetBool("Run", true);
             isMoving = true;
         }
-        else if (Input.GetKey(KeyCode.LeftArrow))
+        else if (Input.GetKey(LeftKey))
         {
             rb2D.velocity = new Vector2(-runSpeed, rb2D.velocity.y);
             spriteRenderer.flipX = true;
@@ -59,7 +64,6 @@ public class PlayerMoveSimple : MonoBehaviour
             animator.SetBool("Run", false);
         }
 
-        // Update animator with horizontal movement
         if (isMoving)
         {
             animator.SetFloat("Speed", Mathf.Abs(rb2D.velocity.x));
@@ -68,24 +72,22 @@ public class PlayerMoveSimple : MonoBehaviour
 
     private void HandleJump()
     {
-        // Handle jump
-        if (Input.GetKeyDown(KeyCode.UpArrow) && CheckGround.isGrounded)
+        if (Input.GetKeyDown(JumpKey) && checkGround.isGrounded)
         {
             rb2D.velocity = new Vector2(rb2D.velocity.x, jumpSpeed);
-            CheckGround.isGrounded = false;
+            checkGround.isGrounded = false;
         }
     }
 
     private void ApplyBetterJump()
     {
-        // Better jump
         if (betterJump)
         {
             if (rb2D.velocity.y < 0)
             {
                 rb2D.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.fixedDeltaTime;
             }
-            else if (rb2D.velocity.y > 0 && !Input.GetKey(KeyCode.UpArrow))
+            else if (rb2D.velocity.y > 0 && !Input.GetKey(JumpKey))
             {
                 rb2D.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.fixedDeltaTime;
             }
@@ -94,36 +96,33 @@ public class PlayerMoveSimple : MonoBehaviour
 
     private void UpdateAnimator()
     {
-        // Update vertical movement for animator
         if (rb2D.velocity.y > 0)
         {
-            verticalMovement = 1; // Going up
+            verticalMovement = 1;
         }
         else if (rb2D.velocity.y < 0)
         {
-            verticalMovement = -1; // Going down
+            verticalMovement = -1;
         }
         else
         {
-            verticalMovement = 0; // Idle or running
+            verticalMovement = 0;
         }
 
         animator.SetInteger("VerticalMovement", verticalMovement);
 
-        // Update isGrounded only if its state has changed
-        if (CheckGround.isGrounded != wasGrounded)
+        if (checkGround.isGrounded != wasGrounded)
         {
-            animator.SetBool("IsGrounded", CheckGround.isGrounded);
-            wasGrounded = CheckGround.isGrounded;
+            animator.SetBool("IsGrounded", checkGround.isGrounded);
+            wasGrounded = checkGround.isGrounded;
         }
     }
 
-    // Detect collision with the ground
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
-            CheckGround.isGrounded = true;
+            checkGround.isGrounded = true;
         }
     }
 
@@ -131,7 +130,7 @@ public class PlayerMoveSimple : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
-            CheckGround.isGrounded = false;
+            checkGround.isGrounded = false;
         }
     }
 }
