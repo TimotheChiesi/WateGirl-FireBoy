@@ -7505,7 +7505,7 @@ GameObject:
   - component: {fileID: 954355170}
   m_Layer: 0
   m_Name: WaterGirl_Door
-  m_TagString: Untagged
+  m_TagString: WaterGirlDoor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7904,7 +7904,7 @@ GameObject:
   - component: {fileID: 1358918916}
   m_Layer: 0
   m_Name: FireBoy_Door
-  m_TagString: Untagged
+  m_TagString: FireBoyDoor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
